@@ -2,7 +2,7 @@ import streamlit as st
 
 # --- KONFIGURASI HALAMAN ---
 # Menggunakan layout centered agar proporsional di layar vertikal HP
-st.set_page_config(page_title="Lembar QC Algo", layout="centered")
+st.set_page_config(page_title="Quality Control", layout="centered")
 
 # --- DATA PARAMETER ---
 QC_MODES = ["General QC", "Next Level QC", "Bad Retention", "Good Retention", "Private Class"]
